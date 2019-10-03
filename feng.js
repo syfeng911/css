@@ -1,7 +1,7 @@
 //啟動 Burger
 document.querySelector('.navbar-burger').onclick = function() {
   document.querySelector('.navbar-burger').classList.toggle('is-active');
-  document.querySelector('.nav-menu').classList.toggle('is-active');
+  document.querySelector('.navbar-menu').classList.toggle('is-active');
 }
 
 //關閉 Modale
